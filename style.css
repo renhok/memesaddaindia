@@ -1,0 +1,54 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-image: url(images/marvin-meyer-SYTO3xs06fU-unsplash.jpg);
+    /*box-sizing: border-box;*/
+    font-family: sans-serif;
+}
+#menu-bar
+{
+    background: transparent;
+    text-align: right;
+}
+#menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    
+}
+#menu-bar ul li
+{
+    width: 120px;
+    height: 15px;
+    padding: 12px;
+    text-align: center;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+    
+    
+}
+#active,#menu-bar ul li:hover
+{
+    background: yellow;
+    border-radius: 3px;
+    align-content: center;
+}
+h1
+{
+    font-size: 120px;
+    color: white;
+    text-align:center;
+    margin-top: 200px;
+    background: yellow;
+    border-radius: 50px;
+}
